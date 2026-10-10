@@ -244,7 +244,8 @@ driver_methods_utest_CFLAGS = $(AM_CFLAGS) -I$(top_srcdir)/tests -DDRIVERS_MAIN_
 
 TESTS += dstate-poll-test
 dstate_poll_test_SOURCES = dstate-poll-test.c
-dstate_poll_test_LDADD = $(driver_methods_utest_LDADD)
+dstate_poll_test_LDADD = $(top_builddir)/drivers/libdummy_mockdrv_la-main.lo \
+	$(NUT_LIBCOMMON) $(top_builddir)/common/libcommonversion.la
 dstate_poll_test_CFLAGS = $(driver_methods_utest_CFLAGS)
 dstate_poll_test_DEPENDENCIES = $(driver_methods_utest_LDADD) $(top_srcdir)/drivers/dstate.c
 
