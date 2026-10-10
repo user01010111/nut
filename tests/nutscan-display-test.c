@@ -46,7 +46,7 @@ static char *capture_output(void (*display)(nutscan_device_t *), nutscan_device_
 	if (length < 0) {
 		fatal_with_errno(EXIT_FAILURE, "ftell");
 	}
-	output = xcalloc((size_t)length + 1, 1);
+	output = (char *)xcalloc((size_t)length + 1, 1);
 	rewind(capture);
 	if (fread(output, 1, (size_t)length, capture) != (size_t)length) {
 		fatal_with_errno(EXIT_FAILURE, "read captured output");
