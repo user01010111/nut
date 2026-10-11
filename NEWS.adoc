@@ -779,7 +779,7 @@ https://github.com/networkupstools/nut/milestone/13
 
  - Revised dusty corners of NUT documentation:
     * Documented the existing `--with-debuginfo` and `--enable-cppunit`
-      developer options, including their defaults and dependencies. [issue #2311]
+      developer options, including their defaults and dependencies. [issue #2311, PR #3740]
     * Documented the existing `mfr` and `model` options for `liebert`.
       Documented `sysfs_dir` for `hwmon_ina219`, and corrected the `hwmon`
       path in this driver and documented the integer range and default for
