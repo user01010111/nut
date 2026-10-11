@@ -778,6 +778,9 @@ https://github.com/networkupstools/nut/milestone/13
       one-time reconciliation after upgrading. [PR #3635]
 
  - Revised dusty corners of NUT documentation:
+    * Included the eight existing text cable references in the generated
+      cable guide and user manual, preserving their diagrams and attribution.
+      [issue #1367]
     * Documented the existing `mfr` and `model` options for `liebert`.
       Documented `sysfs_dir` for `hwmon_ina219`, and corrected the `hwmon`
       path in this driver and documented the integer range and default for
