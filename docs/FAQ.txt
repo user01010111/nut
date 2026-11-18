@@ -4,8 +4,8 @@ NUT Frequently Asked Questions
 endif::external_title[]
 
 == I just upgraded, and ...
-You have read link:UPGRADING.adoc[UPGRADING] in the base directory of the
-distribution, right?
+Have you read link:UPGRADING.adoc[UPGRADING] in the base directory of the
+distribution?
 
 If not, go read it now, then come back to this file if your
 question wasn't answered in there.
