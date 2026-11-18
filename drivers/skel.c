@@ -24,7 +24,7 @@
 #define DRIVER_NAME	"Skeleton UPS driver"
 #define DRIVER_VERSION	"0.08"
 
-/* driver description structure */
+/* Driver description structure. */
 upsdrv_info_t upsdrv_info = {
 	DRIVER_NAME,
 	DRIVER_VERSION,
