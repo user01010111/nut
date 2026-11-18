@@ -15,8 +15,8 @@ on:
   push:
     branches: [ "master", "FTY", "fightwarn" ]
   pull_request:
-    # The branches below must be a subset of the branches above
-    branches: [ "master", "FTY", "fightwarn" ]
+    # Include the isolated base used by the fork scheduling tests.
+    branches: [ "master", "FTY", "fightwarn", "codeql-3746-base" ]
   schedule:
     - cron: '32 12 * * 0'
   workflow_dispatch:
